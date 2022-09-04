@@ -1,0 +1,26 @@
+:root {
+  /* dark theme */
+  --dk-dark-blue: hsl(235, 21%, 11%);
+  --dk-dark-desatur-blue: hsl(235, 24%, 19%);
+  --dk-light-gray-blue: hsl(234, 39%, 85%);
+  --dk-gray-blue-hover: hsl(236, 33%, 92%);
+  --dk-dark-gray-blue: hsl(234, 11%, 52%);
+  --dk-very-darkgray-blue: hsl(233, 14%, 35%);
+  --dk-very-dark-gray-blue: hsl(237, 14%, 26%);
+
+  /* light theme */
+  --lg-light-grey: hsl(0, 0%, 98%);
+  --lg-light-greyish-blue: hsl(236, 33%, 92%);
+  --lg-light-greyish-blue: hsl(233, 11%, 84%);
+  --lg-dark-greyish-blue: hsl(236, 9%, 61%);
+  --lg-very-dark-greyish-blue: hsl(235, 19%, 35%);
+
+  --bright-blue: hsl(220, 98%, 61%);
+  --check-gradient: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
