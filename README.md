@@ -13,5 +13,7 @@ Build Tools:
 (Vite)[https://vitejs.dev/guide/]
 
 
-Some links to guide us:
-(Media Queries)[https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries]
+## Some links to guide us:
+- (Media Queries)[https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries]
+- (CSS Postion)[https://developer.mozilla.org/en-US/docs/Web/CSS/position]
+- (CSS Layout)[https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout]
