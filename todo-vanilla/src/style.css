@@ -1,21 +1,20 @@
 :root {
-  /* dark theme */
-  --dk-dark-blue: hsl(235, 21%, 11%);
-  --dk-dark-desatur-blue: hsl(235, 24%, 19%);
-  --dk-light-gray-blue: hsl(234, 39%, 85%);
-  --dk-gray-blue-hover: hsl(236, 33%, 92%);
-  --dk-dark-gray-blue: hsl(234, 11%, 52%);
-  --dk-very-darkgray-blue: hsl(233, 14%, 35%);
-  --dk-very-dark-gray-blue: hsl(237, 14%, 26%);
+  --dk-900: hsl(235, 21%, 11%);
+  --dk-800: hsl(235, 24%, 19%);
+  --dk-700: hsl(237, 14%, 26%);
+  --dk-600: hsl(233, 14%, 35%);
+  --dk-500: hsl(234, 11%, 52%);
+  --dk-400: hsl(236, 33%, 92%);
+  --dk-300: hsl(234, 39%, 85%);
 
   /* light theme */
-  --lg-light-grey: hsl(0, 0%, 98%);
-  --lg-light-greyish-blue: hsl(236, 33%, 92%);
-  --lg-light-greyish-blue: hsl(233, 11%, 84%);
-  --lg-dark-greyish-blue: hsl(236, 9%, 61%);
-  --lg-very-dark-greyish-blue: hsl(235, 19%, 35%);
+  --lg-900: hsl(235, 19%, 35%);
+  --lg-800: hsl(236, 9%, 61%);
+  --lg-400: hsl(236, 33%, 92%);
+  --lg-300: hsl(233, 11%, 84%);
+  --lg-200: hsl(0, 0%, 98%);
 
-  --bright-blue: hsl(220, 98%, 61%);
+  --link-active: hsl(220, 98%, 61%);
   --check-gradient: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
 }
 
@@ -23,7 +22,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  background-color: var(--dk-dark-blue);
+  background-color: var(--dk-900);
 }
 
 header img {
@@ -31,21 +30,62 @@ header img {
 }
 
 h1 {
-  color: var(--dk-light-gray-blue);
+  color: white;
   text-transform: uppercase;
   letter-spacing: 0.6rem;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  font-size: 3rem;
 }
+
 main {
   width: 650px;
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
 }
-main div {
+#header-container {
   display: flex;
   justify-content: space-between;
   place-items: center;
+  margin-bottom: 3rem;
 }
 
+
+
+.todo-item {
+  position: relative;
+  height: 3.7rem;
+  /* border: 1px solid red; */
+  border-radius: 5px;
+  background-color: var(--dk-800);
+}
+
+.todo-item input[type='text'] {
+  position: absolute;
+  border: none;
+  width: 90%;
+  height: 3.5rem;
+  left: 65px;
+  background-color: var(--dk-800);
+  color:hsl(0, 0%, 98%);
+}
+input[type='checkbox'] {
+  position: absolute;
+  left: 20px;
+  top: 5px;
+  width: 2rem;
+  height: 3rem;
+  /* background-color: var(--dk-800); */
+  border: 2px solid var(--dk-500);
+  border-radius: 50%;
+  height: 45px;
+}
 #todo-list {
   min-height: 500px;
   border: 1px solid yellow;
+  margin-top: 3rem;
 }
+
