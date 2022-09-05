@@ -23,4 +23,29 @@ body {
   font-family: "Josefin Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
+  background-color: var(--dk-dark-blue);
+}
+
+header img {
+  width: 100%;
+}
+
+h1 {
+  color: var(--dk-light-gray-blue);
+  text-transform: uppercase;
+  letter-spacing: 0.6rem;
+  border: 1px solid red;
+}
+main {
+  width: 650px;
+}
+main div {
+  display: flex;
+  justify-content: space-between;
+  place-items: center;
+}
+
+#todo-list {
+  min-height: 500px;
+  border: 1px solid yellow;
 }
